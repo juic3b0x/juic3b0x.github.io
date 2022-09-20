@@ -4,7 +4,7 @@ layout: default
 
 ## Projects I Maintain
 
-*    twrp_device_motorola_denver [Download](.https://github.com/juic3b0x/twrp_device_motorola_denver/releases/download/3.6.2_11-v1/twrp-boot.img)
+*    twrp_device_motorola_denver [Download](https://github.com/juic3b0x/twrp_device_motorola_denver/releases/download/3.6.2_11-v1/twrp-boot.img)
 
 ## Header 2
 
