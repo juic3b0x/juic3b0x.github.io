@@ -2,10 +2,11 @@
 layout: default
 ---
 
-# Projects I Maintain
+## Projects I Maintain
 
 *    twrp_device_motorola_denver
-  -  <a href="https://github.com/juic3b0x/twrp_device_motorola_denver/releases/download/3.6.2_11-v1/twrp-boot.img"/>**Download**</a>
+- name: **Download**
+  link: https://github.com/juic3b0x/twrp_device_motorola_denver/releases/download/3.6.2_11-v1/twrp-boot.img
 
 ## Header 2
 
