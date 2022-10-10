@@ -4,7 +4,7 @@ layout: default
 
 ## Projects I Maintain
 
-*    twrp_device_motorola_denver [Download](https://github.com/juic3b0x/twrp_device_motorola_denver/releases/download/3.6.2_11-v1/twrp-boot.img)
+*    twrp12_device_motorola_denver [Download](https://github.com/juic3b0x/twrp12_device_motorola_denver/releases/download/3.7.0_12-v2/a12v2-twrp-boot.img)
 
 ## Penguins Are Fun
 
@@ -14,5 +14,5 @@ layout: default
 
 ```shell
 adb reboot bootloader
-fastboot boot twrp-boot.img
+fastboot boot a12v2-twrp-boot.img
 ```
