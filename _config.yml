@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juic3b0x.github.io"
 show_downloads: false
 # google_analytics: UA-108144808-1
-remote_theme: BDHU/minimalist
+remote_theme: "dracula/gh-pages"
 color-scheme: auto
 plugins:
   - jekyll-sitemap
