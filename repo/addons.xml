@@ -1,32 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.myvideolinks" version="1.0.0" name="MyVideoLinks" provider-name="agentklepto">
-        <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.resolveurl" version="5.1.0"/>
-        </requires>
+	<addon id="repository.myvideolinks" name="MyVideoLinks Repository" version="1.0" provider-name="agentklepto">
+	<extension point="xbmc.addon.repository" name="MyVideoLinks Repository">
+		<dir>
+			<info compressed="false">https://juic3b0x.github.io/repo/addons.xml</info>
+			<checksum>https://juic3b0x.github.io/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://juic3b0x.github.io/repo/zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir>
+			<info>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz.sha256</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			<artdir>https://raw.githubusercontent.com/jsergio123/zips/master/</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bugatsinho/python-koding/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>MyVideoLinks Repository</summary>
+		<description>Repository for MyVideoLinks Kodi Addon.</description>
+		<disclaimer>This repository hosts MyVideoLinks Kodi Addon.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<platform>all</platform>
+	</extension>
+</addon>
+	
+    <addon id="plugin.video.myvideolinks" version="1.1.0" name="MyVideoLinks" provider-name="agentklepto">
+    <requires>
+        <import addon="xbmc.addon" version="20.90.101"/>
+        <import addon="script.module.six" />
+        <import addon="script.module.beautifulsoup4" version="4.12.2"/>
+        <import addon="script.module.t0mm0.common" version="3.0.0"/>
+        <import addon="script.module.resolveurl" version="5.1.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+        <import addon="script.module.pyxbmct" version="1.2.0"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="search.py">
+        <provides>video</provides>
+    </extension>
 
-        <extension point="xbmc.python.pluginsource" library="resources/lib">
-            <provides>video</provides>
-        </extension>
-
-        <extension point="xbmc.addon.metadata">
-            <summary>MyVideoLinks Kodi Addon</summary>
-            <description>Search and play videos from MyVideoLinks.</description>
-            <platform>all</platform>
-            <language>en</language>
-            <license>GPL-2.0-or-later</license>
-            <forum>https://forum.kodi.tv/showthread.php?tid=ADDON_THREAD_ID</forum>
-            <website>https://juic3b0x.github.io</website>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyVideoLinks Kodi Addon</summary>
+        <description lang="en">Search and play videos from MyVideoLinks.</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GPL-2.0-or-later</license>
+        <disclaimer lang="en">All the movies on this add-on are hosted on third-party sites and uploaded by other people. We are not responsible for any content that is hosted on third-party sites. If you have any legal issues, please contact the appropriate video owners or hosters.</disclaimer>
+        <website>https://juic3b0x.github.io</website>
+        <source>https://juic3b0x.github.io/repo</source>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-        </extension>
-
-        <extension point="xbmc.addon.repository">
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
+        </assets>
+    </extension>
     </addon>
 </addons>
