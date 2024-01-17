@@ -1,0 +1,11 @@
+Version 1.0.0:
+
+- Initial release of MyVideoLinks Kodi Addon.
+- Added search functionality.
+- Improved user interface for selecting videos.
+
+Version 1.1.0:
+
+- Added support for resolving Streamtape.com URLs.
+- Enhanced search result display.
+- Fixed minor bugs.
