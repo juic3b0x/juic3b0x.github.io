@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "date": "2024-01-04",
-    "sha1": "064e21927eec059ca1591a9c7f245d7ec20419df",
+    "date": "2024-01-18",
+    "sha1": "1d269df7a01f15a15808f193ab3aab099e5ebaaa",
     "name": "5.4.210-PizzaG_x64-gbf79282b27b6-dirty",
-    "link": "https:\/\/juic3b0x.github.io\/ksu\/xt2131-0-7-5.zip",
+    "link": "https:\/\/juic3b0x.github.io\/ksu\/UPDATE-AnyKernel3.zip",
     "changelog_url": "https:\/\/juic3b0x.github.io\/ksu\/changelog.md",
-    "version": "0.7.5"
+    "version": "0.7.6"
   },
   "support": {
     "link": ""
